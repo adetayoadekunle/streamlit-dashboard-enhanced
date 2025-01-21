@@ -68,6 +68,7 @@ total_students = df['student_count'].sum()
 total_weeks = df['week_recoded'].nunique()
 total_zip_codes = df['zip_code'].nunique()
 
+# Show total students, weeks, and unique zip codes
 st.write(f"**Total Students:** {total_students}")
 st.write(f"**Total Weeks of Data:** {total_weeks}")
 st.write(f"**Total Unique ZIP Codes:** {total_zip_codes}")
