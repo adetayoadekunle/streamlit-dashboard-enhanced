@@ -63,7 +63,7 @@ st.markdown(f"### Data for ZIP Code: {selected_zip}")
 st.dataframe(zip_filtered_df)
 
 # Descriptive summary
-st.markdown("### Data Overview")
+st.markdown("### Overview of Data")
 total_students = df['student_count'].sum()
 total_weeks = df['week_recoded'].nunique()
 total_zip_codes = df['zip_code'].nunique()
